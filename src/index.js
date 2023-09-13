@@ -35,6 +35,9 @@ client.on("interactionCreate", (interaction) => {
           case "sayhello":
                interaction.reply(`Hello`);
                break;
+          case "saysomethingfun":
+               interaction.reply(`you are dumb ~~`);
+               break;
      }
 });
 

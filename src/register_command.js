@@ -10,6 +10,10 @@ const commands = [
           name: "sayhello",
           description: "Hello my boy",
      },
+     {
+          name: "saysomethingfun",
+          description: "You are dumb @@",
+     },
 ];
 
 const tilte_regist = "[REGIST]";
