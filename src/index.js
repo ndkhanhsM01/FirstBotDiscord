@@ -25,10 +25,11 @@ client.on("messageCreate", (msg) => {
           msg.reply("what name!!");
 });
 
-client.on("interactionCreate", async (interaction) => {
-     await interaction.deferReply();
+client.on("interactionCreate", (interaction) => {
      if(!interaction.isChatInputCommand()) return;
      var commandName = interaction.commandName
+     
+     await interaction.deferReply();
      switch(commandName){
           case "hey":
                interaction.reply("hey boy");
